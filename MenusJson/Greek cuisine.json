@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "Moussaka",
+    "Price": 14.99,
+    "Description": "A classic Greek dish made with layers of eggplant, spiced ground beef, and creamy bechamel sauce, baked to perfection. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Souvlaki",
+    "Price": 12.99,
+    "Description": "Grilled skewers of marinated meat (usually pork, chicken or lamb) served with pita bread, tzatziki sauce, and a side of Greek salad."
+  },
+  {
+    "Name": "Spanakopita",
+    "Price": 9.99,
+    "Description": "A savory pastry made with phyllo dough, spinach, feta cheese, and herbs, baked until crispy and golden brown. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Dolmades",
+    "Price": 8.99,
+    "Description": "Grape leaves stuffed with a mixture of rice, herbs, and sometimes ground meat, served with lemon juice and olive oil. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Greek Salad",
+    "Price": 7.99,
+    "Description": "A fresh and colorful mix of lettuce, tomatoes, cucumbers, red onion, feta cheese, and olives, dressed with olive oil and vinegar."
+  },
+  {
+    "Name": "Tzatziki",
+    "Price": 5.99,
+    "Description": "A creamy dip made with Greek yogurt, grated cucumber, garlic, and olive oil, served with pita bread or as a condiment for grilled meats."
+  },
+  {
+    "Name": "Saganaki",
+    "Price": 8.99,
+    "Description": "A popular Greek appetizer made with fried or grilled cheese (usually Kefalotyri or Halloumi), served with lemon wedges and sometimes honey. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Greek Gyro",
+    "Price": 10.99,
+    "Description": "A traditional Greek street food, made with grilled meat (usually lamb, chicken, or pork) wrapped in a warm pita with lettuce, tomato, onion, and tzatziki sauce. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Pastitsio",
+    "Price": 12.99,
+    "Description": "A hearty casserole made with layers of pasta, spiced ground beef, and creamy bechamel sauce, baked to perfection. Served with a side of Greek salad."
+  },
+  {
+    "Name": "Feta Psiti",
+    "Price": 8.99,
+    "Description": "A simple yet flavorful dish of baked feta cheese topped with olive oil, herbs, and sometimes tomato slices. Served with a side of pita bread."
+  },
+  {
+    "Name": "Keftedes",
+    "Price": 9.99,
+    "Description": "Fried meatballs made with ground beef or lamb, breadcrumbs, and herbs, served with tzatziki sauce and a side of Greek salad."
+  }
+]
+

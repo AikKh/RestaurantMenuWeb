@@ -1,0 +1,68 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+@using RestaurantMenuWeb.Data
+
+
+<h1>@menu.Name</h1>
+<div class="menu">
+	@foreach (Dish dish in menu)
+	{
+		<div class="menu-item">
+            <h2>@dish.Name</h2>
+            <p class="price">@dish.Price</p>
+            <p class="description">@dish.Description</p>
+
+            <div class="add-remove-btn">
+                <button class="add-btn btn" @onclick="() => order.Add(dish)">Add</button>
+                
+                @if (order.Count(d => d == dish) > 0){
+                    <a style="font-size: 18px;">  x @(order.Count(d => d == dish))&nbsp;</a>
+                }
+
+                <button class="remove-btn btn" @onclick="() => order.Remove(dish)">Remove</button>
+            </div>
+        </div>
+	}
+</div>
+
+<div class="btn-container">
+    <a href="/order" class="btn btn-solid">Order</a>
+</div>
+
+
+@code{
+    Menu menu = new("Armenian cuisine");
+    Order order = Order.Instance;
+
+
+    bool active = false;
+    //SearchMenu search = new SearchMenu(menu);
+
+    string? searchTerm;
+
+    private void HandleInput(ChangeEventArgs e)
+    {
+        Console.WriteLine($"HandleInput: {searchTerm}, Active: {active}");
+        searchTerm = e.Value?.ToString();
+    }
+
+    private string[] Search(string? input)
+    {
+        if (input is null){
+            Console.WriteLine("ss");
+            return Enumerable.Empty<string>().ToArray();
+        }
+
+        input = input.ToLower();
+        //var dishes = menu.Select(x => x.Name.ToLower());
+        //dishes = dishes.Where(name => name.Length >= input.Length).ToArray();
+        //dishes = dishes.Where(name => name[..(input.Length)] == input).ToArray();
+        //var res = dishes;
+        var res = menu.Select(x => x.Name.ToLower())
+                    .Where(name => name.Length >= input.Length)
+                    .Where(name => name[..(input.Length)] == input)
+                    .ToArray();
+        return res;
+    }
+}

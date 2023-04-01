@@ -1,0 +1,48 @@
+﻿[
+    {
+      "Name": "Big Mac",
+      "Price": 3.99,
+      "Description": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun."
+    },
+    {
+      "Name": "Quarter Pounder with Cheese",
+      "Price": 4.79,
+      "Description": "Quarter pound of 100% beef, topped with melted cheese, pickles, onions, ketchup, and mustard on a sesame seed bun."
+    },
+    {
+      "Name": "McChicken",
+      "Price": 1.39,
+      "Description": "Juicy, tender chicken breast filet with a crispy coating, topped with lettuce and mayonnaise on a sesame seed bun."
+    },
+    {
+      "Name": "Filet-O-Fish",
+      "Price": 3.79,
+      "Description": "Delicious fish filet, topped with tangy tartar sauce and cheese on a steamed bun."
+    },
+    {
+      "Name": "French Fries",
+      "Price": 1.89,
+      "Description": "Crispy, golden-brown French fries, lightly salted and served hot."
+    },
+    {
+      "Name": "McNuggets",
+      "Price": 4.29,
+      "Description": "Crispy, breaded chicken nuggets made with 100% white meat chicken and served with your choice of dipping sauce."
+    },
+    {
+      "Name": "Big Breakfast",
+      "Price": 3.99,
+      "Description": "A hearty breakfast featuring scrambled eggs, sausage, a biscuit, and hash browns."
+    },
+    {
+      "Name": "Hotcakes",
+      "Price": 3.19,
+      "Description": "Three golden-brown hotcakes served with butter and syrup."
+    },
+    {
+      "Name": "Sausage Biscuit",
+      "Price": 1.19,
+      "Description": "A warm, buttery biscuit with savory sausage."
+    }
+]
+

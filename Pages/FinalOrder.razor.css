@@ -1,0 +1,62 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #fffff;
+}
+
+.header {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.order-list {
+    margin: 20px;
+}
+
+.order-item {
+    background-color: #fff;
+    border: 2px solid #c7c7c7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.order-name {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-price {
+    color: green;
+    font-size: 18px;
+}
+
+.order-quantity {
+    color: #c7c7c7;
+    font-size: 18px;
+}
+
+.total {
+    background-color: #fff;
+    border: 2px solid #c7c7c7;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    text-align: right;
+}

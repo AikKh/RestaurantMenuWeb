@@ -1,0 +1,57 @@
+[
+    {
+    "Name": "Khorovats",
+    "Price": 15.99,
+    "Description": "Traditional Armenian barbeque made with marinated meat (usually pork, lamb or beef) grilled over hot coals. Served with lavash bread, tomatoes, onions, and fresh herbs."
+    },
+    {
+    "Name": "Manti",
+    "Price": 12.99,
+    "Description": "Small dumplings filled with spiced ground meat (usually lamb or beef) and served with a garlicky yogurt sauce and sometimes topped with tomato sauce and butter."
+    },
+    {
+    "Name": "Dolma",
+    "Price": 10.99,
+    "Description": "Grape leaves stuffed with a mixture of rice, herbs, and sometimes ground meat. Served cold or warm with lemon juice and olive oil."
+    },
+    {
+    "Name": "Kufta",
+    "Price": 14.99,
+    "Description": "Ground meat (usually lamb or beef) mixed with bulgur wheat, onions, and spices, shaped into balls and stuffed with a mixture of spiced ground meat, onions, and sometimes pine nuts. Served with a side of tabbouleh salad."
+    },
+    {
+    "Name": "Lahmajun",
+    "Price": 9.99,
+    "Description": "Armenian flatbread topped with a mixture of ground meat (usually lamb or beef), tomatoes, onions, and spices, then baked until crispy. Served with a side of fresh herbs and lemon wedges."
+    },
+    {
+    "Name": "Harissa",
+    "Price": 8.99,
+    "Description": "A traditional Armenian porridge made with cracked wheat and meat (usually chicken or lamb), slowly cooked until the grains and meat are tender and melded together. Served with a side of fresh herbs and lemon wedges."
+    },
+    {
+    "Name": "Khash",
+    "Price": 10.99,
+    "Description": "A hearty Armenian soup made with beef or lamb feet, slowly cooked with onions and garlic until the broth is rich and flavorful. Served with a side of lavash bread and fresh herbs."
+    },
+    {
+    "Name": "Gata",
+    "Price": 6.99,
+    "Description": "A sweet pastry made with buttery layers of dough and filled with a mixture of sugar and sometimes nuts or dried fruit. Served with a side of Armenian coffee or tea."
+    },
+    {
+    "Name": "Basturma",
+    "Price": 13.99,
+    "Description": "Air-dried beef or lamb that has been cured with a mixture of spices, then sliced thin and served as a flavorful appetizer or snack. Served with a side of fresh herbs and sometimes pickled vegetables."
+    },
+    {
+    "Name": "Pakhlava",
+    "Price": 7.99,
+    "Description": "A rich and sweet pastry made with layers of phyllo dough and filled with chopped nuts and honey syrup. Served with a side of Armenian coffee or tea."
+    },
+    {
+    "Name": "Armenian Salad",
+    "Price": 7.99,
+    "Description": "A fresh and flavorful salad made with diced tomatoes, cucumbers, onions, and parsley, dressed with lemon juice and olive oil."
+    }
+]

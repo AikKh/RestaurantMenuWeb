@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RestaurantMenuWeb.Data.Menu">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="Menu" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAAAABAEAAAAAAQBAAAAAAAEAAAAQAAAQAA=</HashCode>
+      <FileName>Data\Menu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_dishes" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RestaurantMenuWeb.Data.Order">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAABAQAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Data\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="RestaurantMenuWeb.Data.Dish">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Data\Dish.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="RestaurantMenuWeb.Data.IMenu">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAAAQAA=</HashCode>
+      <FileName>Data\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

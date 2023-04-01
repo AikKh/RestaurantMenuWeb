@@ -1,0 +1,39 @@
+﻿@page "/order"
+
+<PageTitle>Order</PageTitle>
+@using RestaurantMenuWeb.Data
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Order</title>
+	<link rel="stylesheet" type="text/css" href="order.html.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Final Order</h1>
+	</div>
+	<div class="order-list">
+		<ul>
+			@foreach (var pair in order.GetQuantityOfDishes())
+			{
+				<li class="order-item">
+					<div class="order-name">@pair.Key.Name</div>
+					<div class="order-price">@pair.Key.Price</div>
+					<div class="order-quantity">x @pair.Value</div>
+				</li>
+			}
+		</ul>
+	</div>
+	@if (order.Total > 0){
+		<div class="total">
+			Total: $@order.Total
+		</div>
+	}
+</body>
+</html>
+
+@code {
+    Order order = Order.Instance;
+}
